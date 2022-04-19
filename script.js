@@ -1,8 +1,8 @@
 // DropDwon Menu
-const mainMenu = document.querySelector('ultop-nav-menu');
+const mainMenu = document.querySelector('ul.top-nav-menu');
 
 // Get Li item with class has-child
-const hasChild = document.querySelectorAll('li.has-child');
+const hasChild = mainMenu.querySelectorAll('li.has-child');
 
 // Loop through each li item with class has-child
 hasChild.forEach(item => {
